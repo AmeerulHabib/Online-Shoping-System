@@ -1,6 +1,6 @@
 package shoppingSystem.actor;
 
-public class Customer {
+public class Customer extends User{
 	private String name;
 	private String billingAddress;
 	private String defaultShippingAddress;
