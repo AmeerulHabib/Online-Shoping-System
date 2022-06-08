@@ -8,6 +8,9 @@ public class DebugClass {
 		
 		JFrame f = new JFrame();
 		
+		
+		
+		
 		user1.setName(JOptionPane.showInputDialog(f,"Enter Name"));
 		user1.setBillingAddress(JOptionPane.showInputDialog(f,"Enter Billing Address"));
 		
