@@ -16,11 +16,10 @@ public class OptionPane extends WindowAdapter{
 		
 		f=new JFrame("JOptionPane Sample");
 		
-		JButton button = new JButton("Click to Proceed");
-		
 		f.addWindowListener(this);
 		f.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		
+		JButton button = new JButton("Click to Proceed");
 		
 	    ActionListener actionListener = new ActionListener() {
 			public void actionPerformed(ActionEvent actionEvent) {

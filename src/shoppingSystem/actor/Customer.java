@@ -10,6 +10,11 @@ public class Customer extends User{
 		billingAddress = "";
 		defaultShippingAddress = "";
 	}
+	public Customer(String name) {
+		this.name = name;
+		billingAddress = "";
+		defaultShippingAddress = "";
+	}
 	
 	public void setName(String name) {
 		this.name = name;
@@ -34,4 +39,10 @@ public class Customer extends User{
 	public void signUp() {}
 	
 	public void login() {}
+	
+	public boolean equals(Customer c) {
+		System.out.println("-"+this.getName()+"-");
+		System.out.println("-"+c.getName()+"-");
+		return (this.getName() == c.getName());
+	}
 }
