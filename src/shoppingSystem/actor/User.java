@@ -1,3 +1,6 @@
+/*
+ * User object source file
+ */
 package shoppingSystem.actor;
 
 public class User {

@@ -1,3 +1,6 @@
+/*
+ * Interface for introduction for the shopping system
+ */
 package mainClass;
 
 import java.awt.BorderLayout;

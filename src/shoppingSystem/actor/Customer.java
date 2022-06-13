@@ -1,3 +1,6 @@
+/*
+ * Customer Object source file 
+ */
 package shoppingSystem.actor;
 
 public class Customer extends User{

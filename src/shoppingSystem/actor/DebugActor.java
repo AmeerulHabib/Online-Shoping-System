@@ -1,3 +1,7 @@
+/*
+ * Source file to test the object of customer and user 
+ * test sign in and login method
+ */
 package shoppingSystem.actor;
 
 import javax.swing.*;

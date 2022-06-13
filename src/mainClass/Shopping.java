@@ -1,3 +1,6 @@
+/*
+ * This is the main program for Online Shopping System
+ */
 package mainClass;
 
 public class Shopping {
